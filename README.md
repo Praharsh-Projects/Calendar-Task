@@ -1,44 +1,42 @@
-# 📅 Advanced Calendar Application
+# Calendar-Task
 
-![Calendar Screenshot](./image.png)  
-*Clean, intuitive calendar interface with event management*
+React calendar UI project with month navigation and event rendering.
 
-## Overview
+## What This Project Is
+- A calendar web app built with React and custom CSS.
+- Displays month grids with event cards and a legend.
+- Includes reusable utilities/hooks for date and event handling.
 
-The Advanced Calendar Application is a modern, user-friendly calendar solution inspired by Google Calendar. It features a sleek UI with gradient backgrounds, glass-morphism cards, and smooth animations. The application allows users to navigate between months, view events, and manage their schedule with an intuitive interface.
+## Main Features
+- Month navigation (previous, next, and jump to today).
+- Calendar grid generation for each month view.
+- Event display per day with color-coded event types.
+- Today highlighting and basic event overflow indicator.
+- Styled with custom theme variables and animations.
 
-## 🚀 Live Demo
+## Tech Stack
+- React
+- JavaScript
+- Custom CSS
+- `lucide-react` icons
 
-[View Live Demo](https://calendar-sand-rho.vercel.app/)  
+## Project Structure
+- `src/components/` - calendar UI components.
+- `src/hooks/useCalendar.js` - calendar state and navigation logic.
+- `src/utils/dateUtils.js` - date helpers and month grid generation.
+- `src/utils/eventUtils.js` - event filtering/sorting helpers.
+- `src/data/events.js` - event seed data and event type mapping.
 
-## ✨ Features
-
-### Core Functionality
-- **Month Navigation**: Easily switch between months with intuitive controls
-- **Event Display**: Color-coded events with time details
-- **Today Highlighting**: Current date is clearly marked
-- **Event Legend**: Quick reference for event types
-- **Responsive Design**: Works seamlessly on all device sizes
-
-### Advanced UI Elements
-- **Glass-morphism Cards**: Semi-transparent UI elements with blur effects
-- **Smooth Animations**: Fade-in and slide transitions for interactions
-- **Gradient Backgrounds**: Visually appealing color schemes
-- **Consistent Typography**: Clean, readable text throughout
-
-## 🛠️ Installation
-
+## Run Locally
 ```bash
-# Clone the repository
-git clone https://github.com/Rohith1034/Calendar-Task.git
-
-# Navigate to project directory
-cd advanced-calendar-app
-
-# Install dependencies
 npm install
-
-# Start the development server
 npm start
+```
 
-## Thankyou
+Build for production:
+```bash
+npm run build
+```
+
+## Preview
+![Calendar Screenshot](./image.png)
